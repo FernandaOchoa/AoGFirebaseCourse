@@ -39,6 +39,12 @@ Las siguientes herramientas deben estar en su entorno:
 * Deployment
 * Que aprendimos, Despedida
 
+#### Version 2 API DialogFlow
+Para usar la versión 2 del API de dialogflow es necesario cambiar el path de la variable *params* de la siguiente manera.  
+
+    let params = request.body.queryResult.parameters;
+
+
 #### Demo TacoBot   
 ![Demo TacoBot](https://firebasestorage.googleapis.com/v0/b/hackcf-1a937.appspot.com/o/tacobot.gif?alt=media&token=28a185e9-6411-4c74-a02c-e607db9efe01) 
 
